@@ -1,7 +1,5 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, Grid } from "@material-ui/core";
-import Cart from "../Cart/Cart.controller";
-
 const Header = () => {
   return (
     <AppBar position="static">
@@ -14,11 +12,8 @@ const Header = () => {
         >
           <Grid item spacing={10}>
             <Typography variant="h6" component="h1">
-              Toy Mart
+              Student Grid
             </Typography>
-          </Grid>
-          <Grid item spacing={2}>
-            <Cart />
           </Grid>
         </Grid>
       </Toolbar>

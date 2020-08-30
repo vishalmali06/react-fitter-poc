@@ -1,11 +1,15 @@
 import React from "react";
 import { Box } from "@material-ui/core";
-import ProductsGrid from "../../components/ProductsGrid/ProductsGrid.controller";
+import StudentList from "../../components/StudentsList/controller";
+import StudentForm from "../../components/StudentForms/StudentForm";
+// import ProductsGrid from "../../components/ProductsGrid/ProductsGrid.controller";
 
 const Home = () => {
   return (
     <Box>
-      <ProductsGrid />
+      <StudentForm />
+      <hr />
+      <StudentList />
     </Box>
   );
 };
